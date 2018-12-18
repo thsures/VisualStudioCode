@@ -1,0 +1,8 @@
+D:\Practice\Sanitation\SanitationApplication\Sanitation.BusinessServices\bin\Debug\Sanitation.BusinessServices.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.BusinessServices\bin\Debug\Sanitation.BusinessServices.pdb
+D:\Practice\Sanitation\SanitationApplication\Sanitation.BusinessServices\obj\Debug\Sanitation.BusinessServices.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.BusinessServices\obj\Debug\Sanitation.BusinessServices.pdb
+D:\Practice\Sanitation\SanitationApplication\Sanitation.BusinessServices\bin\Debug\EntityFramework.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.BusinessServices\bin\Debug\EntityFramework.SqlServer.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.BusinessServices\bin\Debug\EntityFramework.xml
+D:\Practice\Sanitation\SanitationApplication\Sanitation.BusinessServices\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,12 @@
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\Sanitation.DataModel.dll.config
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\Sanitation.DataModel.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\Sanitation.DataModel.pdb
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\EntityFramework.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\EntityFramework.xml
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\obj\Debug\Sanitation.DataModel.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\obj\Debug\Sanitation.DataModel.pdb
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\Sanitation.BusinessServices.dll
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\bin\Debug\Sanitation.BusinessServices.pdb
+D:\Practice\Sanitation\SanitationApplication\Sanitation.DataModel\obj\Debug\Sanitation.DataModel.csprojResolveAssemblyReference.cache

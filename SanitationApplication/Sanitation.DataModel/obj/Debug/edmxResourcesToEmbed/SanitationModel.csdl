@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SanitationAppModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="UserRegistration">
+    <Key>
+      <PropertyRef Name="RegisterID" />
+    </Key>
+    <Property Name="RegisterID" Type="Int32" Nullable="false" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AddressOne" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AddressTwo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RoleID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <Property Name="RoleName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RoleCreatedBy" Type="Int32" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PasswordSalt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RoleID" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="SanitationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserRegistrations" EntityType="Self.UserRegistration" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRole" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+  </EntityContainer>
+</Schema>
